@@ -52,6 +52,5 @@ print(b)
 x = y = []
 x.append(1)
 y.append(2)
-
 print(x)
 print(y)
