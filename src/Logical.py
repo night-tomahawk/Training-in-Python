@@ -14,7 +14,7 @@ x = True
 y = False
 print(x and y)
 print(y and x)
-# Год ялвяется високосным, если он кратен 4, но при этом не кратен 100, либо кратен 400
+# Год является високосным, если он кратен 4, но при этом не кратен 100, либо кратен 400
 year = 2024
 is_leap = year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 print(is_leap)
@@ -32,3 +32,14 @@ score_1 = 5
 score_2 = 0
 win = 'Argentina' if score_1 > score_2 else 'Jamaica'
 print(win)
+a = int(input())
+b = int(input())
+print(a + b)
+# ДЗ Тренировка
+# Сложить два числа
+a = int(input())
+b = int(input())
+print(a + b)
+# Проверить является ли введеное число степенью двойки. Если да, то вывести 0, в противном случае вывести любое число.
+a = int(input())
+print(1-a)
