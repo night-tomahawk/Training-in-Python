@@ -1,5 +1,4 @@
 import calendar
-
 # Логический тип
 x, y, z = True, False, True
 print(x and y or z)
@@ -46,3 +45,4 @@ print(1 - a)
 # сколько существует числе из интервала от 1 до N, кратных 3?
 n = int(input())
 int(n // 3)
+a = b
