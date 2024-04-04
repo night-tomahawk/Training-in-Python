@@ -55,4 +55,33 @@
 # print(lenght)
 # a = 10
 # print(dir(a))
-import this
+# print("ООО Медовый Гексагон")
+# print("Мёд липовый", end=" ")
+# print(1, end="шт ")
+# print(1250, end="р")
+# print("\nCумма", 1250, end="р")
+# print("\nСпасибо за покупку!")
+# def print_check(honey_positions):
+#     sum = 0  # переменная для накопления общей суммы
+#     print("ООО Медовый Гексагон\n")
+#     # в цикле будем выводить название, количество и цену
+#     for honey in honey_positions:
+#         name = honey[0]
+#         amount = honey[1]
+#         price = honey[2]
+#         print(f"{name} ({amount} шт.) - {price} руб.")
+#         sum += amount * price  # здесь же будем считать ещё и общую сумму
+#     print(f"\nИтого: {sum} руб.")
+#     print("Спасибо за покупку!")
+# honey_positions = [
+#     ("Мёд липовый", 8, 1250),
+#     ("Мёд цветочный", 7, 1000),
+#     ("Мёд гречишный", 6, 1300),
+#     ("Донниковый мёд", 1, 1750),
+#     ("Малиновый мёд", 10, 2000),
+# ]
+# print_check(honey_positions)
+def data_Assasins(log, pas):
+    print('login:', log)
+    print('password:', pas)
+data_Assasins('дай пожалуйста', 'данные для входа:)')
