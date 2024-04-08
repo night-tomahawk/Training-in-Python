@@ -1,3 +1,4 @@
+# import math
 # Цикл while
 # n = int(input())
 # i = 1
@@ -81,7 +82,12 @@
 #     ("Малиновый мёд", 10, 2000),
 # ]
 # print_check(honey_positions)
-def data_Assasins(log, pas):
-    print('login:', log)
-    print('password:', pas)
-data_Assasins('дай пожалуйста', 'данные для входа:)')
+# def data_assasins(log, pas):
+#     print('login:', log)
+#     print('password:', pas)
+# data_assasins('дай пожалуйста', 'данные для входа:)')
+# name = input( 'Введите своё имя: ')
+# age = input( 'Введите свой возраст: ')
+# print('Привет, ' + name + '!')
+# print('Тебе уже ' + age + 'лет, это здорово!')
+# print(math.pi)
