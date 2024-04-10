@@ -1,14 +1,13 @@
-import pyowm
-owm = pyowm.OWM('603014a288b8718af660386383703b6b')
-mgr = owm.weather_manager()
-place = input("В каком городе/стране?: ")
-observation = mgr.weather_at_place(place)
-w = observation.weather
-temperature = w.temperature('celsius')['temp']
-humidity = w.humidity
-status = w.status
-print(w)
-
+# import pyowm
+# owm = pyowm.OWM('603014a288b8718af660386383703b6b')
+# mgr = owm.weather_manager()
+# place = input("В каком городе/стране?: ")
+# observation = mgr.weather_at_place(place)
+# w = observation.weather
+# temperature = w.temperature('celsius')['temp']
+# humidity = w.humidity
+# status = w.status
+# print(w)
 # Калькулятор для чайников v.1
 # what = input("Что делаем?(+,-): ")
 # a = float(input('Введи первое число: '))
