@@ -93,9 +93,36 @@
 # print(s)
 # a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # print(a)
-n = 5
-b = []
-for i in range(n):
-    row = [int(x) for x in input().split()]
-    b.append(row)
-print(b)
+# n = 5
+# b = []
+# for i in range(n):
+#     row = [int(x) for x in input().split()]
+#     b.append(row)
+# print(b)
+# import pandas as pd
+#
+# # Создаем пример датафрейма
+# df = pd.DataFrame({'A': ['apple', 'banana', 'cherry', 'date', 'elderberry'],
+#                    'B': [5, 10, 3, 8, 4]})
+#
+# # Функция для определения условий на основе значений столбца 'B'
+# def check_fruit_length(word):
+#     if len(word) > 5:
+#         return 'Long fruit'
+#     else:
+#         return 'Short fruit'
+#
+# # Добавляем новый столбец 'C', зависящий от значений столбца 'A'
+# df['C'] = df['A'].apply(check_fruit_length)
+#
+# print(df)
+import pandas as pd
+
+# Создание примера датафрейма
+data = {'Имя': ['Иван', 'Мария', 'Петр'],
+        'Возраст': [25, 30, 22],
+        'Город': ['Москва', 'Санкт-Петербург', 'Казань']}
+df = pd.DataFrame(data)
+
+# Форматированный вывод таблицы из датафрейма
+print(df.to_string(index=False))
