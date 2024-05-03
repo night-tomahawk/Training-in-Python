@@ -1,4 +1,4 @@
-TYPE,YEAR,MONTH,DAT,HOUR,MINUTE,NEIGHBOURHOOD,Latitude,Longitude
+TYPE,YEAR,MONTH,DAY,HOUR,MINUTE,NEIGHBOURHOOD,Latitude,Longitude
 Other Theft', 2003, 5, 12, 16, 15, 'Strathcona', 49.269802, -123.083763
 Other Theft', 2003, 5, 7, 15, 20, 'Strathcona', 49.269802, -123.083763
 Other Theft', 2003, 4, 23, 16, 40, 'Strathcona', 49.269802, -123.083763
