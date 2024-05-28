@@ -1,10 +1,7 @@
 # V1
 import pandas as pd
 
-pd.set_option('display.max_colwidth', 40)
-
-crime_data = pd.read_csv('data_catalog.csv', index_col=0)
-crime_data = crime_data.apply(lambda x: x.str.strip() if x.dtype == 'object' else x)
+crime_data = pd.read_csv('crime_catalog.csv', index_col=0)
 
 
 def time_checking(line):
